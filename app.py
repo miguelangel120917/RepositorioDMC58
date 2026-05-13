@@ -3,6 +3,7 @@ import streamlit as st
 st.title("Mi primera aplicación en python")
 
 st.sidebar.title("Parámetros")
+st.image("DMC.png")
 
 st.write("Elaborado por: Miguel Limaquispe")
 
