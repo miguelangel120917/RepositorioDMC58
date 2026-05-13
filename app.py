@@ -14,6 +14,10 @@ if sesion == "Sesión 1":
   st.image("Python_logo.png")
 elif sesion =="Sesión 2":
   st.write("Bienvenido a la sesión 2")
+  precio = st.number_input("Ingrese el precio del producto")
+  descuento = st.number_input("Ingrese el descuento del producto")
+  precio_final_producto = precio*(1-descuento)
+   st.write("El precio final del producto es:",precio_final_producto)
 elif sesion =="Sesión 3":
   st.write("Bienvenido a la sesión 3")
 else:
