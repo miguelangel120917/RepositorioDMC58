@@ -19,6 +19,6 @@ elif sesion =="Sesión 2":
   precio_final_producto = precio*(1-descuento)
    st.write("El precio final del producto es:" precio_final_producto)
 elif sesion =="Sesión 3":
-  st.write("Bienvenido a la sesión 3")
+  st.write("Bienvenido a la sesión 3") 
 else:
   st.write("Bienvenido a la sesión 4")
