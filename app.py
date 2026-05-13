@@ -8,7 +8,6 @@ st.write("Elaborado por: Miguel Limaquispe")
 
 sesion = st.sidebar.selectbox("Seleccione una sesión", ["Sesión 1","Sesión 2","Sesión 3","Sesión 4"])
 
-#estructura de control
 if session == "Sesión 1":
   st.write("Bienvenido a la sesión 1")
 elif session =="Sesión 2":
