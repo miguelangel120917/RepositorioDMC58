@@ -57,4 +57,7 @@ else:
       datos=pd.read_csv(archivo)
     elif arcchivo.name.endswith(".xlsx"):
       datos=pd.read_excel(archivo)
+    st.write(datos)
+    st.write(datos.info())
+    st.write(datos.describe())
       
