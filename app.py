@@ -37,17 +37,17 @@ elif sesion == "Sesión 3":
   fin_rango = st.slider("Seleccione un valor", min_value=0,max_value=20,value=7)
   arreglo = np.arange(0,fin_rango)
   st.write(arreglo)
-"""
-elif sesion == "Sesión 4":
-  st.write("Bienvenido la sesión 4")
-  principal =  st.number_input("Ingrese el monto del préstamo", value=1000)
-  tasa_anual =  st.number_input("Ingrese la tasa anual en decimal", value=0.1, min_value=0.0, max_value=1.0)
-  anios =  st.number_input("Ingrese el años de préstamo", value=1)
-  pagos_anio =  st.number_input("Ingrese la cantidad de pagos por año", value=12)
 
-  cuota= lf.cuota_prestamo(principal,tasa_anual,anios,pagos_anio)
-  st.write(f"El valor de la cuota es {cuota}")
-"""
+#elif sesion == "Sesión 4":
+  #st.write("Bienvenido la sesión 4")
+  #principal =  st.number_input("Ingrese el monto del préstamo", value=1000)
+  #tasa_anual =  st.number_input("Ingrese la tasa anual en decimal", value=0.1, min_value=0.0, max_value=1.0)
+  #anios =  st.number_input("Ingrese el años de préstamo", value=1)
+  #pagos_anio =  st.number_input("Ingrese la cantidad de pagos por año", value=12)
+
+  #cuota= lf.cuota_prestamo(principal,tasa_anual,anios,pagos_anio)
+  #st.write(f"El valor de la cuota es {cuota}")
+
 else:
 
   st.write("Bienvenido la sesión 4")
